@@ -13,23 +13,23 @@ cask "xsign" do
 
   on_macos do
     on_intel do
-      url "https://github.com/xtoolsio/xTools/releases/download/v#{version}/xsign_Darwin_x86_64.tar.gz"
-      sha256 "9c4669d87b24019560fdb1b8ec5f3d238e0bf3b6150f2dcbfef6c8f5057ba820"
+      url "https://xtools.blob.core.windows.net/downloads/xSign/v#{version}/xsign_Darwin_x86_64.tar.gz"
+      sha256 "8debc2cb353a1e01f31a6f487dd7613dd6200b086a06fb3c61940823909cde60"
     end
     on_arm do
-      url "https://github.com/xtoolsio/xTools/releases/download/v#{version}/xsign_Darwin_arm64.tar.gz"
-      sha256 "d345be9bd8c1f13f51764109d5625b9b63baed0cffa862de84aef484c967db28"
+      url "https://xtools.blob.core.windows.net/downloads/xSign/v#{version}/xsign_Darwin_arm64.tar.gz"
+      sha256 "081ff369078bd80dae16e5ff2f61990d8e0f861da579225ae0acb026844b800a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/xtoolsio/xTools/releases/download/v#{version}/xsign_Linux_x86_64.tar.gz"
-      sha256 "9d5d3f26911927d0cc4a4f6359d35163622c315966e4f125a6f3c7ff3764e8a4"
+      url "https://xtools.blob.core.windows.net/downloads/xSign/v#{version}/xsign_Linux_x86_64.tar.gz"
+      sha256 "4ebe6b37a216e3ac6a04807390dbc2065c76a9f9df47b3613fb11d00a4ec5069"
     end
     on_arm do
-      url "https://github.com/xtoolsio/xTools/releases/download/v#{version}/xsign_Linux_arm64.tar.gz"
-      sha256 "392566a3ab3fc3ecb8d58f188ae061f23724feebb907cfac746d657a9d5ead97"
+      url "https://xtools.blob.core.windows.net/downloads/xSign/v#{version}/xsign_Linux_arm64.tar.gz"
+      sha256 "fa7ef6908236b27b6e8a96cd964b1daf9ebe520c9fa0caf1be9e61f8ea389ce7"
     end
   end
 
