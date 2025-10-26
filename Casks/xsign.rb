@@ -3,7 +3,7 @@ cask "xsign" do
   name "xsign"
   desc "xSign - Code signing and certificate management tool"
   homepage "https://github.com/xtoolsio/xTools"
-  version "0.1.29"
+  version "0.1.30"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,14 +11,25 @@ cask "xsign" do
 
   binary "xsign"
 
+  on_macos do
+    on_intel do
+      url "https://xtools.blob.core.windows.net/downloads/xSign/v#{version}/xsign_Darwin_x86_64.tar.gz"
+      sha256 "1a0c2c8bbed5a573c392d1a240cf911a8c59ca7dc9e2c254b76bd474ab79cb2b"
+    end
+    on_arm do
+      url "https://xtools.blob.core.windows.net/downloads/xSign/v#{version}/xsign_Darwin_arm64.tar.gz"
+      sha256 "8779716c933e7b3e40c60b575d2bbb9573f264db87587b9f1e19781752c2946e"
+    end
+  end
+
   on_linux do
     on_intel do
       url "https://xtools.blob.core.windows.net/downloads/xSign/v#{version}/xsign_Linux_x86_64.tar.gz"
-      sha256 "ea887106e40315f652f8b0e3c0fdf14056ddeddd8b918180e12924d72dee4f1c"
+      sha256 "a586273e037695d6e7f049f4e4a552e30beca618cb3e2ce3c8154e3e8f4203bf"
     end
     on_arm do
       url "https://xtools.blob.core.windows.net/downloads/xSign/v#{version}/xsign_Linux_arm64.tar.gz"
-      sha256 "42c8a8d807ae05b76f80e8ba314b1d73a5d3581991acc64352ec549a3d96daf5"
+      sha256 "5d8e45b8c1a4ca6c53c9493db0b8252165050a76749c444570c2b1c0e205869f"
     end
   end
 
