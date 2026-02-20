@@ -14,22 +14,22 @@ cask "qbcli" do
   on_macos do
     on_intel do
       url "https://xtools.blob.core.windows.net/downloads/qbcli/v#{version}/qbcli_#{version}_darwin_amd64.tar.gz"
-      sha256 "abbd6e24b87f05627e8bc3ead4df4539d75a53117957a6aae034ce0096e32a19"
+      sha256 "112f59199b54eadc35f80fba9e2323eab96cc19669ffb6bd2e57911f31e89606"
     end
     on_arm do
       url "https://xtools.blob.core.windows.net/downloads/qbcli/v#{version}/qbcli_#{version}_darwin_arm64.tar.gz"
-      sha256 "b34491c2b11f8b5956e52ca772621f8a233fcbd6b9a110b5dfeb54e8c5091f51"
+      sha256 "7ff5e29bbdaa0935f94162da30dbfcca39303eae15cd718f141402ea21bc58af"
     end
   end
 
   on_linux do
     on_intel do
       url "https://xtools.blob.core.windows.net/downloads/qbcli/v#{version}/qbcli_#{version}_linux_amd64.tar.gz"
-      sha256 "2aeba20a7b64d57880dd563a6fc361c1a1c95fc1e7ff794ca8e53af8a2e11317"
+      sha256 "73a2ed21b7b8201593c7783757b7ce80ccd1b18090c6ec22e17c07aa5e05ae93"
     end
     on_arm do
       url "https://xtools.blob.core.windows.net/downloads/qbcli/v#{version}/qbcli_#{version}_linux_arm64.tar.gz"
-      sha256 "5b12960ca4402c56ef279a7868d97b71a9795ae11ba7af59bfb90f79677a0a2e"
+      sha256 "f8ac9cb5d7f639209989aa0401b5f7d4ade66cda204dae639b5d39d1beaae8ea"
     end
   end
 
