@@ -3,7 +3,7 @@ cask "qbcli" do
   name "qbcli"
   desc "qbcli - Command-line interface for QuickBooks Online"
   homepage "https://github.com/xtoolsio/xTools"
-  version "0.4.2"
+  version "0.5.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "qbcli" do
   on_macos do
     on_intel do
       url "https://xtools.blob.core.windows.net/downloads/qbcli/v#{version}/qbcli_#{version}_darwin_amd64.tar.gz"
-      sha256 "93014598ea15189e6dc7c99124a411d84a3d83f24187f9e8d816baf99ed63670"
+      sha256 "dd3916aadd5a2d7b4ec5929ca9960546562f87ea2d0a199365fecf8c85015efb"
     end
     on_arm do
       url "https://xtools.blob.core.windows.net/downloads/qbcli/v#{version}/qbcli_#{version}_darwin_arm64.tar.gz"
-      sha256 "a987af64538a7bb5375e6229245a29eed2b23d152307108435ca81a4d7cdc4a7"
+      sha256 "755234255e310fbb2cfdc0c03e333c9943a6db3fc50b67361360dd9ba7ae4534"
     end
   end
 
   on_linux do
     on_intel do
       url "https://xtools.blob.core.windows.net/downloads/qbcli/v#{version}/qbcli_#{version}_linux_amd64.tar.gz"
-      sha256 "87bc0c6dec5d2648d49b2b5d5868a4a969afe6b21d23ba979e20f2e9308e4f69"
+      sha256 "9cd1657100921220b75a78f7c5478647c47c20ec7ed62dcf66232e2311e9bb24"
     end
     on_arm do
       url "https://xtools.blob.core.windows.net/downloads/qbcli/v#{version}/qbcli_#{version}_linux_arm64.tar.gz"
-      sha256 "8ea5cc0dd2cec010bcd8e5f2404046c0b8bee3ea251063bfae07135c125163d1"
+      sha256 "073cabf1d75d15a5c5b88871e93666efd6c846d2431588475d87daf2794e0492"
     end
   end
 
