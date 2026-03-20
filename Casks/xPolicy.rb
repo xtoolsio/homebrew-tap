@@ -3,7 +3,7 @@ cask "xpolicy" do
   name "xpolicy"
   desc "xPolicy - Command-line interface for Azure Policy definitions"
   homepage "https://xtools.com/xpolicy"
-  version "0.2.0"
+  version "0.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "xpolicy" do
   on_macos do
     on_intel do
       url "https://xtools.blob.core.windows.net/downloads/xPolicy/v#{version}/xPolicy_#{version}_darwin_amd64.tar.gz"
-      sha256 "44176fe1d61c02ef4015e329af41fccb0887cb6b5a35d36cead72c29864e99f4"
+      sha256 "e56753b558c5103efc66c76cae556efdfb47b2838497346baca87eb2df52f1b6"
     end
     on_arm do
       url "https://xtools.blob.core.windows.net/downloads/xPolicy/v#{version}/xPolicy_#{version}_darwin_arm64.tar.gz"
-      sha256 "69e16609da0801dc2a955790c8e66e4b2b142a8a51873ce1bac04dc3a94ee708"
+      sha256 "7d1204c757018baeadcc9e42dc5bd3662627eb7d6ad719165d256d41fc2186b9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://xtools.blob.core.windows.net/downloads/xPolicy/v#{version}/xPolicy_#{version}_linux_amd64.tar.gz"
-      sha256 "531cbb5233f30f9427d3c13f0649a6ade86298fc2b5348565cc8f0a3fce35b78"
+      sha256 "92e00bcc9817a90ff7bd92f6e91089e67fff8d37abff63dea2ac4523bb10fa80"
     end
     on_arm do
       url "https://xtools.blob.core.windows.net/downloads/xPolicy/v#{version}/xPolicy_#{version}_linux_arm64.tar.gz"
-      sha256 "06891e9725b76a524bf13f4255e710c30212a132ddfd4a6cf26f6b7fede026bf"
+      sha256 "b221ffcdd9162ab6ce917eb5c51cb8806438032a6fbfa5f232d223efa48e3cdd"
     end
   end
 
