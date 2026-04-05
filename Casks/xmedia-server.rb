@@ -5,22 +5,22 @@ cask "xmedia-server" do
   on_macos do
     on_intel do
       url "https://xtools-data.sfo3.digitaloceanspaces.com/downloads/xmedia-server/v#{version}/xmedia-server_#{version}_darwin_amd64.tar.gz"
-      sha256 "faab95c43fbf3e96b57837658574b04e05506f11973df1593731142fba1c306f"
+      sha256 "f195304bf3d357c12619e6daa64ffab84a7eb0f54fde5213df8a55ed2f334822"
     end
     on_arm do
       url "https://xtools-data.sfo3.digitaloceanspaces.com/downloads/xmedia-server/v#{version}/xmedia-server_#{version}_darwin_arm64.tar.gz"
-      sha256 "0f775e3772cee7fb2db86de26140eac15a5e4b50446210524fe0939de8d01c9b"
+      sha256 "5e63db3656a9dfa90abfdb635a3b0c7733b0e283939e82ee94a20004af52599e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://xtools-data.sfo3.digitaloceanspaces.com/downloads/xmedia-server/v#{version}/xmedia-server_#{version}_linux_amd64.tar.gz"
-      sha256 "403b9a62211533f8245b91a852c502a6d3a104d869ef44d264bff1f6151e8866"
+      sha256 "8cceb9d54d5b00cc29b0b3b07cd2c9c50ae74c2653c36e37e5159f2a301e996a"
     end
     on_arm do
       url "https://xtools-data.sfo3.digitaloceanspaces.com/downloads/xmedia-server/v#{version}/xmedia-server_#{version}_linux_arm64.tar.gz"
-      sha256 "d7db150879ef150dc8623fee8fbaf0b2761d17d1ac1cc1ecea6a6f1c4400be97"
+      sha256 "e423c4e0e2f4d7297b038a8ac3bddebf91f08890585fc8b9b106c14ea4ee1f1e"
     end
   end
 
