@@ -5,22 +5,22 @@ cask "xmedia" do
   on_macos do
     on_intel do
       url "https://xtools-data.sfo3.digitaloceanspaces.com/downloads/xmedia/v#{version}/xmedia_#{version}_darwin_amd64.tar.gz"
-      sha256 "97600167485ee6890d28612b0c2e037c9f4c214ff9e89f83a5bede8b1ca2f7d6"
+      sha256 "fbf46dd4c08301cf444f9f3bf3a05642fd5221ea9467e1f037fb3dcc38b24eba"
     end
     on_arm do
       url "https://xtools-data.sfo3.digitaloceanspaces.com/downloads/xmedia/v#{version}/xmedia_#{version}_darwin_arm64.tar.gz"
-      sha256 "46d5f5dcc843e0cef50eca332e829c6f8bdeec7b2c2fb9cf2e49425325f81ad4"
+      sha256 "61128077b293215ee751b21bb4647d543bbe4eab88f6913ac65b4cfbce693e3e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://xtools-data.sfo3.digitaloceanspaces.com/downloads/xmedia/v#{version}/xmedia_#{version}_linux_amd64.tar.gz"
-      sha256 "cb9405255186dfd152f5fe064196d65667d16dd105145b0d62a791f925575d49"
+      sha256 "7945b9d62e520c9171a34d61adbb3c2b0503cb548b5bfdc9501cb166ae5141e5"
     end
     on_arm do
       url "https://xtools-data.sfo3.digitaloceanspaces.com/downloads/xmedia/v#{version}/xmedia_#{version}_linux_arm64.tar.gz"
-      sha256 "d7de24494f6c3cb4ea7a118e78b843abe1c27448cc229699843108b63af52379"
+      sha256 "b33845201d56404739dde509b4882cfff5513146a1fd3c83b0819236f6fed122"
     end
   end
 
