@@ -34,9 +34,9 @@ cask "xmedia-server" do
 
   binary "xmedia-server"
 
-  postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/xmedia-server"]
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{staged_path}}/xmedia-server"]
     end
   end
 
